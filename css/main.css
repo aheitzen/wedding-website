@@ -51,6 +51,15 @@ ul {
 	margin: 0;
 }
 
+p img {
+	height: 335px;
+	width: 540px;
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	text-align: center;
+}
+
 /*div#seafoamdiv {
 	background-color: #ABDDC6;
 	width: 100%;
