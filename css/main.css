@@ -50,14 +50,17 @@ li:hover {
 ul {
 	margin: 0;
 }
+p {
+	text-align: center;
+	/*vertical-align: middle;*/
+}
 
 p img {
 	height: 335px;
 	width: 540px;
-	display: flex;
-	justify-content: center;
-	vertical-align: middle;
-	text-align: center;
+	
+	
+	
 }
 
 /*div#seafoamdiv {
