@@ -80,14 +80,6 @@ p img#whitearrow {
 	height: 47px;
 	width: 28px;
 	margin: 0;
-	background-size: cover;
-
-
-
-}
-
-#footer:hover p img#whitearrow {
-	color: white;
 }
 
 #footer:hover {
@@ -98,6 +90,8 @@ p img#whitearrow {
 	-o-transition: all ease 0.5s;
 	-ms-transition: all ease 0.5s ;
 	transition: all ease 0.5s ;
+	cursor: pointer;
+
 }
 
 
