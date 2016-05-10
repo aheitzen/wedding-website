@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
 
 html {
-	/*height: 100%;
-	width: 100%;*/
+	height: 100%;
+	width: 100%;
+	margin: 0;
 	/*margin-top: 0;*/
 	/*background-color: #008AA0;*/
 
@@ -11,6 +12,7 @@ html {
 body {
 	background-color: #ABDDC6;
 	margin: 0;
+	height: 100%;
 }
 
 div#navbar {
@@ -52,15 +54,31 @@ ul {
 }
 p {
 	text-align: center;
-	/*vertical-align: middle;*/
 }
 
 p img {
-	height: 335px;
+	height: 340px;
 	width: 540px;
-	
-	
-	
+	margin-top: 130px; /* transition: TO GET IT VERTICALLY CENTERED HEIGHT/2 FOR THE MARGIN-TOP*/
+}
+
+div#footer {
+	height: 70px;
+	width: 100%;
+	background-color: pink;
+	/*position: absolute;*/
+	/*margin: 0;*/
+	/*position: relative;*/
+	position: relative;
+
+
+}
+
+p img#whitearrow {
+	height: 47px;
+	width: 28px;
+	margin: 0;
+	padding: 10px;
 }
 
 /*div#seafoamdiv {
