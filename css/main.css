@@ -70,7 +70,6 @@ p img {
 	width: 100%;
 	background-color: transparent;
 	bottom: 0;
-	/*left: 0;*/
 	position: absolute;
 
 
@@ -80,6 +79,14 @@ p img#whitearrow {
 	height: 47px;
 	width: 28px;
 	margin: 0;
+	opacity: 0.2;
+
+}
+
+
+#footer:hover p img#whitearrow {
+	opacity: 1;
+	content:url(http://www.katieplusluke.com/images/next.png);
 }
 
 #footer:hover {
@@ -91,8 +98,8 @@ p img#whitearrow {
 	-ms-transition: all ease 0.5s ;
 	transition: all ease 0.5s ;
 	cursor: pointer;
-
 }
+
 
 
 
