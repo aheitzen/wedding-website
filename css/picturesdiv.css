@@ -1,0 +1,33 @@
+div#pictures {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+
+#pictures p img#picturesimg {
+	margin-top: 200px;
+	height: 75px;
+	width: 320px;
+}
+
+h2#gallery-title {
+	text-align: center;
+	font-family: 'Pacifico', 'PacificoRegular', cursive;
+	color: #A9A9A9;
+	font-size: 35px;
+	margin-top: 0;
+	font-weight: bolder;
+}
+
+div#gallery {
+	align-content:flex-start;
+	text-align: center;
+}
+
+#gallery span.picturespans {
+	display: inline-block;
+	height: 51px;
+	width: 51px;
+	background-color: #A9A9A9;
+	margin: 4px;
+}
