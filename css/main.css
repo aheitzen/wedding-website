@@ -4,16 +4,20 @@ html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	/*margin-top: 0;*/
-	/*background-color: #008AA0;*/
-
 }
 
 body {
-	background-color: #ABDDC6;
+	background-color: #008AA0;
 	margin: 0;
 	height: 100%;
 	position: relative;
+}
+
+div#home {
+	background-color: #ABDDC6;
+	height: 100%;
+	width: 100%;
+
 }
 
 div#navbar {
@@ -60,7 +64,7 @@ p {
 	margin-top: 0;
 }
 
-p img {
+p img#homeimg {
 	height: 340px;
 	width: 540px;
 	margin-top: 130px; /* transition: TO GET IT VERTICALLY CENTERED HEIGHT/2 FOR THE MARGIN-TOP*/
@@ -83,6 +87,7 @@ p img#whitearrow {
 	margin: 0;
 	opacity: 0.2;
 	padding: 12px;
+	/*position: fixed;*/
 
 }
 
@@ -90,9 +95,10 @@ p img#whitearrow {
 #footer:hover p img#whitearrow {
 	opacity: 1;
 	content:url(http://www.katieplusluke.com/images/next.png);
+
 }
 
-#footer:hover {
+#home #footer:hover {
 	background-color: rgba(91, 106, 99, 0.5);
 	transition: opacity 0.5s;
 	-webkit-transition: all ease 0.5s;
@@ -101,6 +107,19 @@ p img#whitearrow {
 	-ms-transition: all ease 0.5s ;
 	transition: all ease 0.5s ;
 	cursor: pointer;
+	/*position: fixed;*/
+}
+
+div#pictures {
+	background-color: white;
+}
+
+#pictures img {
+	text-align: center;
+	margin-top: 300px;
+	/*margin-top: 100px;*/
+	height: 75px;
+	width: 320px;
 }
 
 
@@ -110,9 +129,3 @@ p img#whitearrow {
 
 
 
-/*div#seafoamdiv {
-	background-color: #ABDDC6;
-	width: 100%;
-	height: 25%;
-
-}*/
