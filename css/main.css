@@ -132,8 +132,9 @@ h2#gallery-title {
 	font-weight: bolder;
 }
 
-#gallery {
-	margin: 0 auto;
+div#gallery {
+	align-content:flex-start;
+	text-align: center;
 }
 
 #gallery span.picturespans {
@@ -141,8 +142,14 @@ h2#gallery-title {
 	height: 51px;
 	width: 51px;
 	background-color: #A9A9A9;
-	/*margin: 0 auto;*/
 	margin: 4px;
+}
+
+.picturespans:hover {
+	content: url("http://www.katieplusluke.com/images/gallery/ss-01.jpg");
+	height: 51px;
+	width: 51px;
+
 }
 
 
