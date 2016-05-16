@@ -1,31 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	/*margin-top: 0;*/
+	/*background-color: #008AA0;*/
+
 }
 
 body {
-	background-color: #008AA0;
+	background-color: #ABDDC6;
 	margin: 0;
 	height: 100%;
 	position: relative;
-}
-
-div#home {
-	background-color: #ABDDC6;
-	height: 100%;
-	width: 100%;
-
 }
 
 div#navbar {
 	background-color: #5B6A63;
 	height: 60px;
 	width: 100%;
-	position: fixed;
 	
 
 }
@@ -64,12 +58,15 @@ p {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	margin-top: 0;
+	position: fixed;
+
 }
 
-p img#homeimg {
+p img {
 	height: 340px;
 	width: 540px;
 	margin-top: 130px; /* transition: TO GET IT VERTICALLY CENTERED HEIGHT/2 FOR THE MARGIN-TOP*/
+
 }
 
 #footer {
@@ -89,7 +86,8 @@ p img#whitearrow {
 	margin: 0;
 	opacity: 0.2;
 	padding: 12px;
-	/*position: fixed;*/
+
+
 
 }
 
@@ -97,10 +95,9 @@ p img#whitearrow {
 #footer:hover p img#whitearrow {
 	opacity: 1;
 	content:url(http://www.katieplusluke.com/images/next.png);
-
 }
 
-#home #footer:hover {
+#footer:hover {
 	background-color: rgba(91, 106, 99, 0.5);
 	transition: opacity 0.5s;
 	-webkit-transition: all ease 0.5s;
@@ -109,7 +106,6 @@ p img#whitearrow {
 	-ms-transition: all ease 0.5s ;
 	transition: all ease 0.5s ;
 	cursor: pointer;
-	/*position: fixed;*/
 }
 
 
@@ -119,6 +115,9 @@ p img#whitearrow {
 
 
 
+/*div#seafoamdiv {
+	background-color: #ABDDC6;
+	width: 100%;
+	height: 25%;
 
-
-
+}*/
